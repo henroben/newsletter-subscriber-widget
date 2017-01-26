@@ -1,9 +1,9 @@
 <?php
 /**
 * Plugin Name: Newsletter Subscriber
-* Description: A form to subscriber to a newsletter
+* Description: A form to subscribe to a newsletter
 * Version: 1.0
-* Author: Brad Traversy
+* Author: Benjamin Mercer
 *
 **/
 
