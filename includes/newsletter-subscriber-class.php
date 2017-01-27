@@ -31,8 +31,8 @@ if(!empty($instance['title'])) {
 };
 echo $args['after_title'];
 ?>
-	<div class="form-msg"></div>
-	<form action="<?php plugins_url() . '/newsletter-subscriber/includes/newsletter-subscriber-mailer.php' ?>" id="subscriber-form" method="post">
+	<div id="form-msg"></div>
+	<form action="<?php echo plugins_url() . '/newsletter-subscriber/includes/newsletter-subscriber-mailer.php' ?>" id="subscriber-form" method="post">
 		<p>
 			<div class="form-group">
 				<label for="name">Name:</label>
